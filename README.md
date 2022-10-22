@@ -215,6 +215,51 @@ transmission: ws
 - allow port 62789
 - allow your inbound user ports
 
+# User your server with clash
+
+vmess-ws-tls is supported by clash
+make your config
+use https://v2rayse.com/en/v2ray-clash/ to convert it to a clash config.
+Enjoy!
+
+## Free Clients
+
+# Clash
+
+    Windows / Mac / Linux : https://github.com/Fndroid/clash_for_windows_pkg/releases 
+    Android: https://github.com/Kr328/ClashForAndroid/releases
+
+# V2ray
+
+Windows:
+
+    Qv2ray : https://github.com/Qv2ray/Qv2ray/releases/download/v2.7.0/Qv2ray-v2.7.0-Windows-Installer.exe
+    V2rayN : https://github.com/2dust/v2rayN/releases
+
+
+Mac:
+
+    Qv2ray : https://github.com/Qv2ray/Qv2ray/releases/download/v2.7.0/Qv2ray-v2.7.0-macOS-x64.dmg
+    V2RayX : https://github.com/Cenmrev/V2RayX/releases/
+
+
+
+Linux:
+
+    Qv2ray : https://github.com/Qv2ray/Qv2ray/releases/download/v2.7.0/Qv2ray-v2.7.0-linux-x64.AppImage
+    V2ray Core: https://github.com/v2fly/v2ray-core/releases
+        
+
+Android:
+
+    V2rayNG : https://github.com/2dust/v2rayNG/releases
+
+IOS: 
+    
+    91VPN : https://apps.apple.com/us/app/91vpn/id1483753706
+    OneClick - Safe, Easy & Fast : https://apps.apple.com/us/app/id1545555197
+    
+
 # Sources
 - https://privacymelon.com/how-to-setup-v2ray-ws-tls-cdn/
 - https://privacymelon.com/how-to-install-vless-xtls-xray-core/
