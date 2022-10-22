@@ -217,8 +217,7 @@ transmission: ws
 
 # User your server with clash
 
-vmess-ws-tls is supported by clash
-make your config
+vmess-ws-tls is supported by clash,
 use https://v2rayse.com/en/v2ray-clash/ to convert it to a clash config.
 Enjoy!
 
