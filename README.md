@@ -1,6 +1,6 @@
 # setup-x-ui-v2ray
 this is my personal experience of setting up a v2ray server 
-# requirements
+# Requirements
 - 2 servers running Ubuntu 20.04 - One is your local server and one is your foreign server.
 I personally userd a dual core with 2 gb of ram for each, how ever a single core with 1 gb of ram is still more than enough.
 
