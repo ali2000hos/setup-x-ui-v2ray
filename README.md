@@ -17,10 +17,7 @@ sudo apt-get install certbot
 2. Download Run the v2-ui installation script on each of your servers.
 
 ```
-wget --no-check-certificate -O install https://raw.githubusercontent.com/proxykingdev/x-ui/master/install
-chmod +x install
-
-./install
+bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/install_en.sh)
 ```
 
 3. Point your domains (or subdomains) to your servers with an A record.
