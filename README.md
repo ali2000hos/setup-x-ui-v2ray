@@ -11,7 +11,14 @@ I personally userd a dual core with 2 gb of ram for each, how ever a single core
 sudo apt-get update -y 
 sudo apt-get upgrade -y
 sudo apt install software-properties-common
-sudo apt-get install certbot
+
+sudo apt install python3 python3-venv libaugeas0
+sudo python3 -m venv /opt/certbot/
+sudo /opt/certbot/bin/pip install --upgrade pip
+sudo /opt/certbot/bin/pip install certbot certbot-nginx
+sudo ln -s /opt/certbot/bin/certbot /usr/bin/certbot
+
+
 ```
 
 2. Download Run the v2-ui installation script on each of your servers.
