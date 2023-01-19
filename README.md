@@ -67,7 +67,7 @@ Fill in an absolute path starting with'/', restart the panel to take effect
 7. Install Iran Hosted Domains file on your local server
 
 ```
-wget https://github.com/SamadiPour/iran-hosted-domains/releases/download/202209210046/iran.dat
+wget https://github.com/chiroots/iran-hosted-domains/releases/download/202301110236/iran.dat
 cp ./iran.dat /usr/local/x-ui/bin
 ```
 
