@@ -86,21 +86,42 @@ transmission: ws
 
 ```
 {
-    "api": {
-      "services": [
-        "HandlerService",
-        "LoggerService",
-        "StatsService"
+  "api": {
+    "services": [
+      "HandlerService",
+      "LoggerService",
+      "StatsService"
+    ],
+    "tag": "api"
+  },
+  "dns": {
+    "hosts": {
+      "dns.google": [
+        "8.8.8.8",
+        "8.8.4.4"
       ],
-      "tag": "api"
+      "dns.pub": "119.29.29.29",
+      "dns.alidns.com": "223.5.5.5"
     },
-    "dns": {
-      "servers": [
-        "208.67.222.222",
-        "208.67.220.220",
-        "localhost"
-      ]
-    },
+    "servers": [
+      {
+        "address": "https://1.1.1.1/dns-query",
+        "domains": [
+          "geosite:geolocation-!cn",
+          "geosite:google@cn"
+        ],
+        "expectIPs": [
+          "geoip:!ir"
+        ]
+      },
+      "1.1.1.1",
+      {
+        "address": "localhost",
+        "skipFallback": true
+      }
+    ],
+    "queryStrategy": "UseIP"
+  },
     "inbounds": [
       {
         "listen": "127.0.0.1",
