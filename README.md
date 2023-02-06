@@ -77,8 +77,15 @@ wget https://github.com/v2fly/domain-list-community/releases/latest/download/dlc
 8. Make an inbound user in your foreign server and write down your id and port
 
 ```
-protocol: vmess
-port: any random 5 digit number
+protocol: vless
+port: (one of ports above)
+443
+2053
+2083
+2087
+2096
+8443
+
 transmission: ws
 ```
 
