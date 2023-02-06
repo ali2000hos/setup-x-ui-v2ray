@@ -107,8 +107,8 @@ transmission: ws
       {
         "address": "https://1.1.1.1/dns-query",
         "domains": [
-          "geosite:geolocation-!cn",
-          "geosite:google@cn"
+          "geosite:geolocation-!ir",
+          "geosite:google@ir"
         ],
         "expectIPs": [
           "geoip:!ir"
