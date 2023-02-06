@@ -67,8 +67,11 @@ Fill in an absolute path starting with'/', restart the panel to take effect
 7. Install Iran Hosted Domains file on your local server
 
 ```
-wget https://github.com/chiroots/iran-hosted-domains/releases/download/202301110236/iran.dat
-cp ./iran.dat /usr/local/x-ui/bin
+sudo -i
+cd /usr/local/x-ui/bin
+wget https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/iran.dat
+wget https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat
+
 ```
 
 8. Make an inbound user in your foreign server and write down your id and port
@@ -186,13 +189,30 @@ transmission: ws
         ],
         "type": "field"
       },
+      {
+        "outboundTag": "blocked",
+        "domain": [
+          "geosite:category-porn"
+        ],
+        "type": "field"
+      },
       { 
         "type": "field", 
         "outboundTag": "direct", 
-        "domain": [ 
-            "regexp:^.+\\\\.ir$", 
-            "ext:iran.dat:ir" 
-            ] 
+          "domain": [
+            "regexp:.*\\.ir$",
+            "ext:iran.dat:ir",
+            "ext:iran.dat:other",
+            "geosite:category-ir-gov",
+            "geosite:category-ir-news",
+            "geosite:category-ir-bank",
+            "geosite:category-ir-tech",
+            "geosite:category-ir-travel",
+            "geosite:category-ir-shopping",
+            "geosite:category-ir-insurance",
+            "geosite:category-ir-scholar",
+            "snapp", "digikala","tapsi", "blogfa", "bank", "sb24.com", "sheypoor.com", "tebyan.net", "beytoote.com", "telewebion.com", "Film2movie.ws", "Setare.com", "Filimo.com", "Torob.com", "Tgju.org", "Sarzamindownload.com", "downloadha.com", "P30download.com", "Sanjesh.org"
+          ]
         },
       { 
         "type": "field", 
