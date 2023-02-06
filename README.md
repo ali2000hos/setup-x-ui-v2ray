@@ -18,7 +18,6 @@ sudo /opt/certbot/bin/pip install --upgrade pip
 sudo /opt/certbot/bin/pip install certbot certbot-nginx
 sudo ln -s /opt/certbot/bin/certbot /usr/bin/certbot
 
-
 ```
 
 2. Download Run the v2-ui installation script on each of your servers.
