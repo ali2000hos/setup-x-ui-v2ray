@@ -317,3 +317,8 @@ IOS:
 - https://github.com/SamadiPour/iran-hosted-domains
 - https://github.com/proxykingdev/x-ui
 - https://github.com/vaxilu/x-ui
+- https://github.com/XIU2/CloudflareSpeedTest/releases
+- https://github.com/iranxray/hope/blob/main/routing.md
+- https://youtu.be/xzuMnxEw97U
+- https://github.com/MortezaBashsiz/CFScanner
+- http://bot.sudoer.net/best.cf.iran
