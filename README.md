@@ -85,7 +85,6 @@ port: (one of ports above)
 2087
 2096
 8443
-
 transmission: ws
 ```
 
