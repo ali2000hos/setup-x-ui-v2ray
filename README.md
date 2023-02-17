@@ -98,15 +98,6 @@ transmission: ws
       "StatsService"
     ],
     "tag": "api"
-  },
-  "dns": {
-    "hosts": {
-      "dns.google": [
-        "8.8.8.8",
-        "8.8.4.4"
-      ],
-      "dns.pub": "119.29.29.29",
-      "dns.alidns.com": "223.5.5.5"
     },
     "servers": [
       {
